@@ -4,32 +4,10 @@
     <meta charset="utf-8">
     <title>Roma's Assignment</title>
   <style>
-  @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
-    img{
-      margin-top: :100px;
-    }
     body{
-    background-color:#F5C2EB;
-    margin-right: 10%;
-    padding: 10px 10px 10px 10px;
-  }
-  .box{
-        position: relative;
-         /* Make the width of box same as image */
-        color:#DE5400;
-        background-color: #DE5392;
-        position: absolute;
-        z-index: 1000;
-        margin: 0 auto;
-        left: 0;
-        right: 0;
-        top: 5%; /* Adjust this value to move the positioned div up and down */
-        text-align: inherit;
-        width: 100%;
-        color: #FFFFFF;
-        /*padding: 5px 5px 5px 5px;*/
-        text-align: center;
-        font-size:30px
+      background-color:#F5C2EB;
+      margin-right: 10%;
+      padding: 10px 10px 10px 10px;
     }
     nav ul{
       list-style-type: none;
@@ -61,20 +39,56 @@
       border-right:none;
       }
 
+
+        .features {
+          background: #F5C2EB;
+          padding: 20px;
+          display: flex;
+          flex-direction: row;
+        }
+
+        .features figure {
+          margin: auto;
+          text-align: center;
+          text-transform: uppercase;
+          width: 200px;
+        }
+
+        .features figure img {
+          border: 1px solid #F5C2EB;
+          border-radius: 50%;
+          box-shadow: gray 0 0 10px;
+          width: 200px;
+        }
+
   </style>
   </head>
   <body>
-
-    <div id="nav">
-    <ul>
-    <li><a href="index.html">Personal Information</a></li>
-    <li><a href="interest.html">Interest In IT</a></li>
-    <li><a href="job.html">Ideal Job</a></li>
-    <li><a href="profile.html">Personal Profile</a></li>
-    <li><a href="project.html">Project Idea</a></li>
-    </ul>
-    </div>
-    <br>
+      <header>
+          <div id="nav">
+          <ul>
+          <li><a href="index.html">Personal Information</a></li>
+          <li><a href="interest.html">Interest In IT</a></li>
+          <li><a href="job.html">Ideal Job</a></li>
+          <li><a href="profile.html">Personal Profile</a></li>
+          <li><a href="project.html">Project Idea</a></li>
+          </ul>
+          </div>
+     </header>
+    <section class= "pictures">
+      <figure>
+        <img src="me.jpg" alt="It's me">
+      </figure>
+      <figure>
+        <img src="one.jpg" alt="It's me">
+      </figure>
+      <figure>
+        <img src="Profile.jpg" alt="It's me">
+      </figure>
+      <figure>
+        <img src="roma.jpg" alt="It's me">
+      </figure>
+    </section>
 
     <p>Hey I’m Roma and one of my hobbies is watching cricket. I’m a big fan of Steven Smith in the Australian cricket team also known as one of the top batsmen in the world. I was born in Melbourne and I am have been raised in three homes which two to be in Pascoe-Vale and my current home being in Craigieburn.</p>
 
