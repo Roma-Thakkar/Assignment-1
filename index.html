@@ -10,7 +10,7 @@
       margin-right: 10%;
       padding: 10px 10px 10px 10px;
     }
-
+    @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
     nav ul{
     list-style-type: none;
     margin:0 auto;
@@ -29,6 +29,7 @@
     padding:20px 70px;
     text-decoration: none;
     align: center;
+    font-family:"Cookie", cursive;
     }
     /* Change the link colour to #000000 (black) on hover to match my HR colour*/
     nav li a:hover {
@@ -67,8 +68,25 @@
     .box{
         position: relative;
          /* Make the width of box same as image */
-        color:#DE5400;
         background-color: #DE5392;
+        position: absolute;
+        z-index: 1000;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 15%; /* Adjust this value to move the positioned div up and down */
+        text-align: inherit;
+        width: 100%;
+        color: #FFFFFF;
+        /*padding: 5px 5px 5px 5px;*/
+        text-align: center;
+        font-size:30px
+    }
+    .text{
+
+        position: relative;
+         /* Make the width of box same as image */
+        background-color: ##8EC9FE;
         position: absolute;
         z-index: 1000;
         margin: 0 auto;
@@ -145,14 +163,16 @@
     <br>
     <br>
     <br>
-    <p>Hey I’m Roma and one of my hobbies is watching cricket. I’m a big fan of Steven Smith in the Australian cricket team also known as one of the top batsmen in the world. I was born in Melbourne and I am have been raised in three homes which two to be in Pascoe-Vale and my current home being in Craigieburn.</p>
+    <div class="text">
+        <p>Hey I’m Roma and one of my hobbies is watching cricket. I’m a big fan of Steven Smith in the Australian cricket team also known as one of the top batsmen in the world. I was born in Melbourne and I am have been raised in three homes which two to be in Pascoe-Vale and my current home being in Craigieburn.</p>
 
 
-    <p>I’m nationally a loyal Australian citizen and I am raised in the Indian culture as both my parents are from the largest city of Gujarat, Ahmedabad in India. </p>
+        <p>I’m nationally a loyal Australian citizen and I am raised in the Indian culture as both my parents are from the largest city of Gujarat, Ahmedabad in India. </p>
 
-    <p>I have accomplished my school years in 2021 and in 2022 I have commenced my bachelor’s degree in Information Technology. I have undertaken User-centred Design, Introduction to Programming, Introduction to Information Technology and Practical Database Concepts  in semester 1, 2022. I currently plan on taking a masters degree either in cybersecurity or information technology once a have finished my bachelors degree in three years time.</p>
+        <p>I have accomplished my school years in 2021 and in 2022 I have commenced my bachelor’s degree in Information Technology. I have undertaken User-centred Design, Introduction to Programming, Introduction to Information Technology and Practical Database Concepts  in semester 1, 2022. I currently plan on taking a masters degree either in cybersecurity or information technology once a have finished my bachelors degree in three years time.</p>
 
-    <p>My fluent languages I know is English, Gujarati and Hindi. I also know a little bit of French. Apart from my most favourite hobby, I also love to spend time with my friends.</p>
+        <p>My fluent languages I know is English, Gujarati and Hindi. I also know a little bit of French. Apart from my most favourite hobby, I also love to spend time with my friends.</p>
+    </div>
 
   </body>
 </html>
